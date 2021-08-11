@@ -38,6 +38,8 @@ func _physics_process(delta):
 	if position.y>700:
 		kill()
 
+# THIS IS A COMMENT
+
 	for i in get_slide_count():
 		var collider = get_slide_collision(i).collider
 		if collider.has_method("kill"):
